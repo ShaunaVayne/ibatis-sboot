@@ -26,8 +26,8 @@ public class Application extends WebMvcConfigurerAdapter {
         SpringApplication.run(Application.class,args);
     }
 
-    /*@RequestMapping("/")
+    @RequestMapping("/")
     public String foo() {
         return "redirect:countries";
-    }*/
+    }
 }
